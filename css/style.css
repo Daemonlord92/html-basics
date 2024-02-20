@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+    color: bisque;
+}
+
+.navbar {
+    background-color: red;
+    padding: 1em 1em;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.title-section{
+    font-size: small;
+
+    & h1{
+        font-size: 1rem;
+    }
+
+    & h2 {
+        display: hidden;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10em 5em;
+}
+
+.img-style {
+    opacity: 0.5;
+    transform: rotate(.1turn);
+}
+
+#title {
+    
+}

@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Binary</title>
 </head>
 <body>
     <header id="nav">
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="nav-list">
                <li><a href="https://www.google.com" target="_blank">google.com</a></li>
                <li><a href="#name">Form</a></li>
                <li><a href="#order-list">list</a></li>
@@ -17,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <div class="">
+    <div class="title-section">
         <h1 id="title">Howdy Welcome to Binary</h1>
         <h2>Teacher Matthew</h2>
         <h3>Heavy Metal and Gamer</h3>
@@ -26,11 +27,10 @@
         <h6>Lived in 5 States</h6>
         <p></p>
         <article></article>
-        <img src="" alt="">
-        <img src="https://http.cat/images/200.jpg" alt="200 Cat" width="150" height="150">
+        <img src="https://http.cat/images/200.jpg" alt="200 Cat" width="150" height="150" class="img-style">
     </div>
-    <img src="img/Karax-Solarite.png" alt="Karax-Solarite" width="150" height="200">
-    <div>
+    <img src="img/Karax-Solarite.png" alt="Karax-Solarite" width="150" height="200" class="img-style">
+    <div class="unordered-list">
         <ul>
             <li><img src="img/conanmeme.jpg" alt="conan meme" width="150" height="125"></li>
             <li><h4>Hello I'm in a unordered list within a div</h4></li>
@@ -39,14 +39,15 @@
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis iusto eos deserunt dicta sit <strong>deleniti</strong> voluptatum, nesciunt ad cupiditate laboriosam, nihil culpa similique quia. Corporis quaerat dolorum tempora officia ea, sint inventore <i>provident</i> atque asperiores excepturi placeat temporibus, numquam est sapiente ab repellendus, eos ad delectus ex. <s>Exercitationem iure tempore corporis quia illum aliquid, repudiandae nesciunt, doloremque iusto, pariatur voluptatem autem enim ut maiores? Neque ex voluptates optio vero doloremque, voluptatibus cum numquam ullam quis sequi similique dolor temporibus at quia dolore laboriosam id!</s> Quidem, qui ex, est quaerat dolores exercitationem numquam sit maiores mollitia aperiam perspiciatis vel non!</li>
         </ul>
     </div>
+    <!-- <video src="img/Banknator demo.mp4" autoplay="false"></video> -->
     <div>
-        <ol id="order-list">
+        <ol id="order-list"  class="ordered-list">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
         </ol>
     </div>
-    <div>
+    <div class="table">
         <table>
             <thead>
                 <tr>
@@ -82,7 +83,7 @@
             </tbody>
         </table>
         <div>
-            <form action="">
+            <form action="" class="form">
                 <label for="name">Name</label>
                 <input id="name" type="text"/>
                 <label for="date">Date</label>
@@ -96,8 +97,8 @@
                 </select>
                 <input type="submit" value="Submit"/>
             </form>
-            <a href="#nav">Back to top</a>
         </div>
+        <a href="#nav">Back to top</a>
     </div>
 </body>
 </html>
